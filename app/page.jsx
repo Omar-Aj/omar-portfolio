@@ -1,13 +1,13 @@
-import Navbar from "@/layout/Navbar";
-import Sidebar from "@/layout/Sidebar";
+import Navigation from "@/layout/Navigation";
 import Welcome from "@/sections/Welcome";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <Sidebar />
+    <div>
+      <Navigation />
       <Welcome />
-    </>
+      <Welcome />
+      <Welcome />
+    </div>
   );
 }

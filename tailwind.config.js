@@ -10,8 +10,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(circle, var(--tw-gradient-stops))",
-        "hero-pattern": "url('/public/assets/textures/black-felt.png')",
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       },
       colors: {
         "theme-red": "#e63946",
