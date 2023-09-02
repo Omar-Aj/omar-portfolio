@@ -1,13 +1,13 @@
 import Navigation from "@/layout/Navigation";
-import Welcome from "@/sections/Welcome";
+import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
     <div>
       <Navigation />
-      <Welcome />
-      <Welcome />
-      <Welcome />
+      <Hero />
+      <Projects />
     </div>
   );
 }

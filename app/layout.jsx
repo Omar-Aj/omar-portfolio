@@ -10,9 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.className} scroll-smooth`}>
-      <body className="bg-gradient-radial to-theme-sky from-white">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

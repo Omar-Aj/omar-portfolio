@@ -11,17 +11,17 @@ export default function NavMenu() {
       <nav
         className={`${
           isMenuOpen ? "flex" : "hidden"
-        } fixed bottom-[66px] left-1/2 w-32 -translate-x-1/2 flex-col rounded-lg border-2 border-theme-d-blue bg-theme-white bg-opacity-50 text-theme-d-blue shadow-2xl backdrop-blur-md transition-all`}
+        } fixed bottom-[66px] left-1/2 z-50 w-32 -translate-x-1/2 flex-col rounded-lg border-2 border-theme-d-blue bg-theme-white bg-opacity-50 text-theme-d-blue shadow-2xl backdrop-blur-md transition-all`}
       >
         <Link
           href="#firstSection"
-          className="flex items-center justify-center border-b border-theme-sky py-2 font-semibold hover:text-black"
+          className="flex items-center justify-center border-b border-theme-d-blue py-2 font-semibold hover:text-black"
         >
           About
         </Link>
         <Link
           href="#secondSection"
-          className="flex items-center justify-center border-b border-theme-sky py-2 font-semibold hover:text-black"
+          className="flex items-center justify-center border-b border-theme-d-blue py-2 font-semibold hover:text-black"
         >
           Projects
         </Link>
