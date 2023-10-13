@@ -10,6 +10,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "texture-desktop":
+          "url('../public/assets/images/bg-texture-desktop.jpg')",
+        "texture-mobile":
+          "url('../public/assets/images/bg-texture-mobile.jpg')",
+        "gradient-hero": "url('../public/assets/images/bg-gradient-hero.png')",
       },
       colors: {
         "theme-red": "#e63946",
@@ -17,12 +22,6 @@ module.exports = {
         "theme-sky": "#a8dadc",
         "theme-blue": "#457b9d",
         "theme-d-blue": "#1d3557",
-      },
-      height: {
-        sectionH: "50rem",
-      },
-      maxHeight: {
-        sectionH: "50rem",
       },
     },
     container: {
