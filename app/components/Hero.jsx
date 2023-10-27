@@ -2,10 +2,11 @@ import Image from "next/image";
 import PersonalImg from "@/public/assets/images/personal-image.jpg";
 import Instagram from "@/public/assets/icons/instagram.svg";
 import Linkedin from "@/public/assets/icons/linkedin.svg";
+import At from "@/public/assets/icons/at.svg";
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-hero flex h-screen flex-col justify-center bg-top bg-no-repeat md:h-[80vh]">
+    <section className="flex h-screen flex-col justify-center bg-gradient-hero bg-top bg-no-repeat md:h-[80vh]">
       <div className="container flex flex-col items-center justify-center md:flex-row-reverse md:justify-around">
         <Image
           alt="personal-image"
@@ -39,6 +40,14 @@ export default function Hero() {
             >
               <Image src={Instagram} alt="Instagram" />
               <p>Instagram</p>
+            </a>
+            <a
+              href="mailto:omar.aj.business@gmail.com"
+              // target="_blank"
+              className="flex items-center justify-center gap-1 rounded-md px-2 py-1 hover:bg-black hover:bg-opacity-10"
+            >
+              <Image src={At} alt="email" />
+              <p>Email</p>
             </a>
           </div>
         </article>

@@ -1,7 +1,7 @@
 "use client";
-import Navigation from "@/layout/Navigation";
-import Hero from "@/components/Hero";
-import Experience from "@/components/Experience";
+import Navigation from "@/app/Navigation";
+import Hero from "@/app/components/Hero";
+import Experience from "@/app/components/Experience";
 
 export default function Home() {
   return (
