@@ -21,16 +21,16 @@ export default function Hero() {
           <h1 className={`mb-3 text-6xl font-extrabold lg:text-8xl`}>
             Omar Ajaj
           </h1>
-          <p className="text-md mb-4 font-bold text-neutral-500">
+          <p className="mb-4 font-bold text-neutral-500">
             Software Engineering Student • Frontend Developer
           </p>
-          <div className="flex justify-center gap-2 md:justify-normal">
+          <div className="flex justify-center flex-wrap text-sm gap-2 md:justify-normal">
             <a
               href="https://www.linkedin.com/in/omar-ajaj-397475215/"
               target="_blank"
               className="flex items-center justify-center gap-1 rounded-md px-2 py-1 hover:bg-black hover:bg-opacity-10"
             >
-              <Image src={Linkedin} alt="LinkedIn" />
+              <Image src={Linkedin} alt="LinkedIn" width={20} />
               <p>LinkedIn</p>
             </a>
             <a
@@ -38,15 +38,14 @@ export default function Hero() {
               target="_blank"
               className="flex items-center justify-center gap-1 rounded-md px-2 py-1 hover:bg-black hover:bg-opacity-10"
             >
-              <Image src={Instagram} alt="Instagram" />
+              <Image src={Instagram} alt="Instagram" width={20} />
               <p>Instagram</p>
             </a>
             <a
               href="mailto:omar.aj.business@gmail.com"
-              // target="_blank"
               className="flex items-center justify-center gap-1 rounded-md px-2 py-1 hover:bg-black hover:bg-opacity-10"
             >
-              <Image src={At} alt="email" />
+              <Image src={At} alt="Email"  width={20}/>
               <p>Email</p>
             </a>
           </div>
